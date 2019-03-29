@@ -1,0 +1,78 @@
+.bg-navbar{
+    background-color: rgba(9, 50, 56, .8);
+}
+.warna-emas{
+    color:#DAB96B !important;
+}
+.kuning-light{
+    color: #FFEABC !important;
+}
+.bg-2{
+    background-color: #014644;
+}
+.bg-blur{
+    background:  linear-gradient(to bottom, rgba(1, 70, 68, 0.6), rgba(1, 70, 68, 0.6));
+    width: 100%;
+}
+.my-jumbotron{
+    margin :0px;
+}
+
+.lifestyle-cover{
+    background: url('../image/lifestyle-cover.jpeg') no-repeat center center; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  /*width: 65%;*/
+}
+
+.lifestyle-text{
+    width: auto;
+    background-color: rgba(218, 185, 107, .5);
+    padding: 20px 15px 20px 15px;
+
+    position: absolute;
+    bottom: 30px;
+    left: 50px;
+
+    font-weight: lighter;
+}
+
+/* LIFESTYLE tabcontent*/
+.tabcontent{
+    display: none;
+    background-color: rgba(7, 25, 25, .8);
+}
+
+.card-subtitle{
+    font-weight: bold !important;
+}
+
+.kilimanjaro_area {
+    position: relative;
+    z-index: 1;
+	}
+	
+.kilimanjaro_blog_area {
+    margin-bottom: 15px;
+    padding: 0 0 15px 90px;
+    position: relative;
+    z-index: 1;
+}
+.kilimanjaro_blog_area .kilimanjaro_date {
+    color: #DAB96B;
+    font-size: 13px;
+    margin-bottom: 5px;
+}
+.kilimanjaro_blog_area > p {
+    color: rgba(235,235,235,1);
+    line-height: 1.3;
+    margin-bottom: 0;
+}
+.kilimanjaro_thumb {
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 75px;
+}
